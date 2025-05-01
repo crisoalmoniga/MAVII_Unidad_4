@@ -1,1 +1,58 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compilación
+*.obj
+*.exe
 *.dll
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.idb
+*.opendb
+*.tlog
+*.log
+*.cache
+*.ilk
+
+# Archivos de base de datos que causan el error
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.iobj
+*.ipdb
+
+# Carpetas de build
+x64/
+Debug/
+Release/
+build/
+*.log
+
+# Archivos de CMake (si los usás)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Archivos de AutoPCH que generan .ipch gigantes
+*.ipch
+*.pch
+
+# Git local
+*.orig
+*.swp
+*.swn
+*.swo
+*.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.old
