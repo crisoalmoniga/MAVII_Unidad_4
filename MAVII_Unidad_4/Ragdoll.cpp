@@ -4,7 +4,7 @@
 #define SCALE 100.0f
 
 Ragdoll::Ragdoll(b2World& world, sf::Vector2f origen, float anguloCanon, float potencia) {
-    // Cabeza más chica: 10x10, ubicada un poco más arriba
+
     cabeza = std::make_unique<ParteCuerpo>(world, origen.x, origen.y - 20, 10, 10);
     torso = std::make_unique<ParteCuerpo>(world, origen.x, origen.y, 16.5f, 16.5f);
     brazoIzq = std::make_unique<ParteCuerpo>(world, origen.x - 11, origen.y, 10, 3.5f);

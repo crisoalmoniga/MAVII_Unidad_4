@@ -5,6 +5,7 @@
 class ParteCuerpo {
 public:
     ParteCuerpo(b2World& world, float x, float y, float width, float height);
+    ParteCuerpo(b2World& world, float x, float y, float width, float height, sf::Color color);
     void draw(sf::RenderWindow& window);
     b2Body* getBody();
     sf::Vector2f getPosition() const;
