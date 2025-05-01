@@ -158,9 +158,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParteCuerpo.cpp" />
+    <ClCompile Include="Ragdoll.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ParteCuerpo.h" />
+    <ClInclude Include="Ragdoll.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
